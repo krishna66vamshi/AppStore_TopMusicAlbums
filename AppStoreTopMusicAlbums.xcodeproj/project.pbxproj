@@ -25,10 +25,24 @@
 		EF8017892C6F9CBE0052931C /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017882C6F9CBE0052931C /* APIEndPoints.swift */; };
 		EF80178A2C6F9CBE0052931C /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017882C6F9CBE0052931C /* APIEndPoints.swift */; };
 		EF80178B2C6F9CBE0052931C /* APIEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017882C6F9CBE0052931C /* APIEndPoints.swift */; };
+		EF8017972C6FBE120052931C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017962C6FBE120052931C /* ImageCache.swift */; };
+		EF8017982C6FBE120052931C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017962C6FBE120052931C /* ImageCache.swift */; };
+		EF8017992C6FBE120052931C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017962C6FBE120052931C /* ImageCache.swift */; };
+		EF80179B2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80179A2C6FBE830052931C /* DetailedAlbumViewModel.swift */; };
+		EF80179C2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80179A2C6FBE830052931C /* DetailedAlbumViewModel.swift */; };
+		EF80179D2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80179A2C6FBE830052931C /* DetailedAlbumViewModel.swift */; };
+		EF80179F2C6FBE8C0052931C /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80179E2C6FBE8C0052931C /* DetailedViewController.swift */; };
+		EF8017A02C6FBE8C0052931C /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80179E2C6FBE8C0052931C /* DetailedViewController.swift */; };
+		EF8017A12C6FBE8C0052931C /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80179E2C6FBE8C0052931C /* DetailedViewController.swift */; };
+		EF8017A32C6FBE910052931C /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017A22C6FBE910052931C /* AlbumTableViewCell.swift */; };
+		EF8017A42C6FBE910052931C /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017A22C6FBE910052931C /* AlbumTableViewCell.swift */; };
+		EF8017A52C6FBE910052931C /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8017A22C6FBE910052931C /* AlbumTableViewCell.swift */; };
+		EF8017A72C6FBEA80052931C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8017A62C6FBEA80052931C /* Main.storyboard */; };
+		EF8017A82C6FBEA80052931C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8017A62C6FBEA80052931C /* Main.storyboard */; };
+		EF8017A92C6FBEA80052931C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8017A62C6FBEA80052931C /* Main.storyboard */; };
 		EF8A1B9B2C6F98010028E5D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1B9A2C6F98010028E5D2 /* AppDelegate.swift */; };
 		EF8A1B9D2C6F98010028E5D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1B9C2C6F98010028E5D2 /* SceneDelegate.swift */; };
 		EF8A1B9F2C6F98010028E5D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1B9E2C6F98010028E5D2 /* ViewController.swift */; };
-		EF8A1BA22C6F98010028E5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8A1BA02C6F98010028E5D2 /* Main.storyboard */; };
 		EF8A1BA42C6F98040028E5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8A1BA32C6F98040028E5D2 /* Assets.xcassets */; };
 		EF8A1BA72C6F98040028E5D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8A1BA52C6F98040028E5D2 /* LaunchScreen.storyboard */; };
 		EF8A1BB22C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1BB12C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift */; };
@@ -60,11 +74,15 @@
 		EF80177B2C6F9B570052931C /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		EF8017842C6F9BE90052931C /* WebServicesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServicesProtocol.swift; sourceTree = "<group>"; };
 		EF8017882C6F9CBE0052931C /* APIEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoints.swift; sourceTree = "<group>"; };
+		EF8017962C6FBE120052931C /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		EF80179A2C6FBE830052931C /* DetailedAlbumViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedAlbumViewModel.swift; sourceTree = "<group>"; };
+		EF80179E2C6FBE8C0052931C /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		EF8017A22C6FBE910052931C /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		EF8017A62C6FBEA80052931C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EF8A1B972C6F98010028E5D2 /* AppStoreTopMusicAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreTopMusicAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8A1B9A2C6F98010028E5D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8A1B9C2C6F98010028E5D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF8A1B9E2C6F98010028E5D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF8A1BA12C6F98010028E5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF8A1BA32C6F98040028E5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF8A1BA62C6F98040028E5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF8A1BA82C6F98040028E5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				EF8A1B9E2C6F98010028E5D2 /* ViewController.swift */,
+				EF8017A22C6FBE910052931C /* AlbumTableViewCell.swift */,
+				EF80179E2C6FBE8C0052931C /* DetailedViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,6 +141,7 @@
 			children = (
 				EF8017772C6F9B4E0052931C /* FeedListViewModel.swift */,
 				EF80177B2C6F9B570052931C /* FeedViewModel.swift */,
+				EF80179A2C6FBE830052931C /* DetailedAlbumViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -129,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8017732C6F9AD60052931C /* NetworkManager.swift */,
+				EF8017962C6FBE120052931C /* ImageCache.swift */,
 				EF8017842C6F9BE90052931C /* WebServicesProtocol.swift */,
 				EF8017882C6F9CBE0052931C /* APIEndPoints.swift */,
 			);
@@ -172,8 +194,8 @@
 				EF80177F2C6F9B630052931C /* Model */,
 				EF8017802C6F9B6A0052931C /* View */,
 				EF8017812C6F9B730052931C /* ViewModel */,
-				EF8A1BA02C6F98010028E5D2 /* Main.storyboard */,
 				EF8A1BA32C6F98040028E5D2 /* Assets.xcassets */,
+				EF8017A62C6FBEA80052931C /* Main.storyboard */,
 				EF8A1BA52C6F98040028E5D2 /* LaunchScreen.storyboard */,
 				EF8A1BA82C6F98040028E5D2 /* Info.plist */,
 			);
@@ -301,9 +323,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8017A72C6FBEA80052931C /* Main.storyboard in Resources */,
 				EF8A1BA72C6F98040028E5D2 /* LaunchScreen.storyboard in Resources */,
 				EF8A1BA42C6F98040028E5D2 /* Assets.xcassets in Resources */,
-				EF8A1BA22C6F98010028E5D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8017A82C6FBEA80052931C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8017A92C6FBEA80052931C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8017972C6FBE120052931C /* ImageCache.swift in Sources */,
+				EF80179B2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */,
+				EF80179F2C6FBE8C0052931C /* DetailedViewController.swift in Sources */,
 				EF8017852C6F9BE90052931C /* WebServicesProtocol.swift in Sources */,
 				EF80177C2C6F9B570052931C /* FeedViewModel.swift in Sources */,
 				EF8A1B9F2C6F98010028E5D2 /* ViewController.swift in Sources */,
@@ -335,6 +362,7 @@
 				EF8017742C6F9AD60052931C /* NetworkManager.swift in Sources */,
 				EF8017892C6F9CBE0052931C /* APIEndPoints.swift in Sources */,
 				EF8A1B9D2C6F98010028E5D2 /* SceneDelegate.swift in Sources */,
+				EF8017A32C6FBE910052931C /* AlbumTableViewCell.swift in Sources */,
 				EF8017782C6F9B4E0052931C /* FeedListViewModel.swift in Sources */,
 				EF8017702C6F9AC40052931C /* FeedModel.swift in Sources */,
 			);
@@ -345,7 +373,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8017862C6F9BE90052931C /* WebServicesProtocol.swift in Sources */,
+				EF80179C2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */,
+				EF8017A02C6FBE8C0052931C /* DetailedViewController.swift in Sources */,
+				EF8017A42C6FBE910052931C /* AlbumTableViewCell.swift in Sources */,
 				EF80177D2C6F9B570052931C /* FeedViewModel.swift in Sources */,
+				EF8017982C6FBE120052931C /* ImageCache.swift in Sources */,
 				EF8017752C6F9AD60052931C /* NetworkManager.swift in Sources */,
 				EF80178A2C6F9CBE0052931C /* APIEndPoints.swift in Sources */,
 				EF8A1BB22C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift in Sources */,
@@ -361,11 +393,15 @@
 				EF8017762C6F9AD60052931C /* NetworkManager.swift in Sources */,
 				EF8A1BBE2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITestsLaunchTests.swift in Sources */,
 				EF80177E2C6F9B570052931C /* FeedViewModel.swift in Sources */,
+				EF8017A12C6FBE8C0052931C /* DetailedViewController.swift in Sources */,
+				EF8017992C6FBE120052931C /* ImageCache.swift in Sources */,
 				EF80178B2C6F9CBE0052931C /* APIEndPoints.swift in Sources */,
 				EF8017722C6F9AC90052931C /* FeedModel.swift in Sources */,
 				EF8017872C6F9BE90052931C /* WebServicesProtocol.swift in Sources */,
 				EF8A1BBC2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift in Sources */,
+				EF80179D2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */,
 				EF80177A2C6F9B4E0052931C /* FeedListViewModel.swift in Sources */,
+				EF8017A52C6FBE910052931C /* AlbumTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,14 +421,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF8A1BA02C6F98010028E5D2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF8A1BA12C6F98010028E5D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF8A1BA52C6F98040028E5D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 enum EventHandlingTypes{
     case loading
@@ -47,5 +48,33 @@ class FeedListViewModel{
             }
         }
     }
+    
+    var getNoOfRows:Int{
+        return albumsResults.count
+    }
+    
+    func getFeedViewModel(indexPath:IndexPath) -> FeedViewModel{
+        return albumsResults[indexPath.row]
+    }
+    
+    func downloadImageFromCache(imageUrl:String) async -> UIImage?{
+        let img = await downloadImageFromAPI(imageUrl)
+        return img
+    }
+    
+    @MainActor
+    func downloadImageFromAPI(_ imageUrl:String) async -> UIImage?{
+        do{
+            if let image = try await webServices?.downloadImage(urlStr: imageUrl){
+                return image
+            }
+        }catch {
+            if let error = error as? NetworkError{
+                print(error.errorDescription)
+            }
+        }
+        return nil
+    }
+    
 }
 
