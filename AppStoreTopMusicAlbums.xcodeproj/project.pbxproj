@@ -119,8 +119,8 @@
 		EF8017812C6F9B730052931C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				EF80177B2C6F9B570052931C /* FeedViewModel.swift */,
 				EF8017772C6F9B4E0052931C /* FeedListViewModel.swift */,
+				EF80177B2C6F9B570052931C /* FeedViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";

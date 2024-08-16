@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class FeedViewModel{
+    var artistName:String
+    init(result: Result) {
+        self.artistName = result.artistName ?? ""
+    }
+}

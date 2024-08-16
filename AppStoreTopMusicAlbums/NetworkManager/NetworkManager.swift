@@ -33,10 +33,8 @@ enum NetworkError : Error{
 struct NetworkManager:WebServicesProtocol {
         
     func callAPI<T:Codable>(endPoint:Endpoint,modelType:T.Type) async throws -> T{
-        
-        let endpoint = Endpoint.getMostPlayedMusic
-        
-        guard let url = endpoint.url else{
+            
+        guard let url = endPoint.url else{
             throw NetworkError.invalidURL
         }
         
