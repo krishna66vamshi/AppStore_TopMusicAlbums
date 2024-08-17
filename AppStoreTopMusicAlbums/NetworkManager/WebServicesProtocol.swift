@@ -13,3 +13,8 @@ protocol WebServicesProtocol {
     func downloadImage(urlStr:String) async throws -> UIImage
 }
 
+extension WebServicesProtocol {
+    func downloadImage(urlStr:String) async throws -> UIImage{
+        return UIImage()
+    }
+}

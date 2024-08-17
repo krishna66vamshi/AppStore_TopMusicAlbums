@@ -55,6 +55,18 @@
 		EFD0A4812C7066A00068782D /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */; };
 		EFD0A4822C7066A00068782D /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */; };
 		EFD0A4832C7066A00068782D /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */; };
+		EFD0A4852C70684C0068782D /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4842C70684C0068782D /* MockService.swift */; };
+		EFD0A4862C70684C0068782D /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4842C70684C0068782D /* MockService.swift */; };
+		EFD0A4872C70684C0068782D /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4842C70684C0068782D /* MockService.swift */; };
+		EFD0A4892C706A090068782D /* mockdata.json in Resources */ = {isa = PBXBuildFile; fileRef = EFD0A4882C706A090068782D /* mockdata.json */; };
+		EFD0A48A2C706A090068782D /* mockdata.json in Resources */ = {isa = PBXBuildFile; fileRef = EFD0A4882C706A090068782D /* mockdata.json */; };
+		EFD0A48B2C706A090068782D /* mockdata.json in Resources */ = {isa = PBXBuildFile; fileRef = EFD0A4882C706A090068782D /* mockdata.json */; };
+		EFD0A48C2C706B6B0068782D /* ReuseID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4792C7057B80068782D /* ReuseID.swift */; };
+		EFD0A48D2C706B6C0068782D /* ReuseID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4792C7057B80068782D /* ReuseID.swift */; };
+		EFD0A48E2C706B770068782D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1B9E2C6F98010028E5D2 /* ViewController.swift */; };
+		EFD0A48F2C706B780068782D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1B9E2C6F98010028E5D2 /* ViewController.swift */; };
+		EFD0A4902C706B800068782D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8A1BA32C6F98040028E5D2 /* Assets.xcassets */; };
+		EFD0A4912C706B810068782D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8A1BA32C6F98040028E5D2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +113,8 @@
 		EFD0A4792C7057B80068782D /* ReuseID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseID.swift; sourceTree = "<group>"; };
 		EFD0A47C2C7062C20068782D /* MainCoordintaor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordintaor.swift; sourceTree = "<group>"; };
 		EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
+		EFD0A4842C70684C0068782D /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		EFD0A4882C706A090068782D /* mockdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockdata.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +173,7 @@
 		EF8017822C6F9B820052931C /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				EFD0A4882C706A090068782D /* mockdata.json */,
 				EF8017732C6F9AD60052931C /* NetworkManager.swift */,
 				EF8017962C6FBE120052931C /* ImageCache.swift */,
 				EF8017842C6F9BE90052931C /* WebServicesProtocol.swift */,
@@ -198,9 +213,9 @@
 		EF8A1B992C6F98010028E5D2 /* AppStoreTopMusicAlbums */ = {
 			isa = PBXGroup;
 			children = (
-				EFD0A47B2C7062A70068782D /* Coordinatorr */,
 				EF8A1B9A2C6F98010028E5D2 /* AppDelegate.swift */,
 				EF8A1B9C2C6F98010028E5D2 /* SceneDelegate.swift */,
+				EFD0A47B2C7062A70068782D /* Coordinators */,
 				EF8017832C6F9B970052931C /* Helpers */,
 				EF8017822C6F9B820052931C /* NetworkManager */,
 				EF80177F2C6F9B630052931C /* Model */,
@@ -218,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8A1BB12C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift */,
+				EFD0A4842C70684C0068782D /* MockService.swift */,
 			);
 			path = AppStoreTopMusicAlbumsTests;
 			sourceTree = "<group>";
@@ -231,13 +247,13 @@
 			path = AppStoreTopMusicAlbumsUITests;
 			sourceTree = "<group>";
 		};
-		EFD0A47B2C7062A70068782D /* Coordinatorr */ = {
+		EFD0A47B2C7062A70068782D /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
 				EFD0A47C2C7062C20068782D /* MainCoordintaor.swift */,
 				EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */,
 			);
-			name = Coordinatorr;
+			name = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +363,7 @@
 				EF8017A72C6FBEA80052931C /* Main.storyboard in Resources */,
 				EF8A1BA72C6F98040028E5D2 /* LaunchScreen.storyboard in Resources */,
 				EF8A1BA42C6F98040028E5D2 /* Assets.xcassets in Resources */,
+				EFD0A4892C706A090068782D /* mockdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +372,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8017A82C6FBEA80052931C /* Main.storyboard in Resources */,
+				EFD0A4902C706B800068782D /* Assets.xcassets in Resources */,
+				EFD0A48A2C706A090068782D /* mockdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +382,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8017A92C6FBEA80052931C /* Main.storyboard in Resources */,
+				EFD0A4912C706B810068782D /* Assets.xcassets in Resources */,
+				EFD0A48B2C706A090068782D /* mockdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +408,7 @@
 				EF8A1B9D2C6F98010028E5D2 /* SceneDelegate.swift in Sources */,
 				EF8017A32C6FBE910052931C /* AlbumTableViewCell.swift in Sources */,
 				EFD0A4812C7066A00068782D /* DetailsCoordinator.swift in Sources */,
+				EFD0A4852C70684C0068782D /* MockService.swift in Sources */,
 				EF8017782C6F9B4E0052931C /* FeedListViewModel.swift in Sources */,
 				EF8017702C6F9AC40052931C /* FeedModel.swift in Sources */,
 			);
@@ -405,9 +427,12 @@
 				EF80177D2C6F9B570052931C /* FeedViewModel.swift in Sources */,
 				EF8017982C6FBE120052931C /* ImageCache.swift in Sources */,
 				EF8017752C6F9AD60052931C /* NetworkManager.swift in Sources */,
+				EFD0A4862C70684C0068782D /* MockService.swift in Sources */,
+				EFD0A48C2C706B6B0068782D /* ReuseID.swift in Sources */,
 				EF80178A2C6F9CBE0052931C /* APIEndPoints.swift in Sources */,
 				EF8A1BB22C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift in Sources */,
 				EF8017792C6F9B4E0052931C /* FeedListViewModel.swift in Sources */,
+				EFD0A48E2C706B770068782D /* ViewController.swift in Sources */,
 				EF8017712C6F9AC90052931C /* FeedModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,8 +450,11 @@
 				EF8017722C6F9AC90052931C /* FeedModel.swift in Sources */,
 				EF8017872C6F9BE90052931C /* WebServicesProtocol.swift in Sources */,
 				EF8A1BBC2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift in Sources */,
+				EFD0A48F2C706B780068782D /* ViewController.swift in Sources */,
+				EFD0A48D2C706B6C0068782D /* ReuseID.swift in Sources */,
 				EFD0A47F2C7062C20068782D /* MainCoordintaor.swift in Sources */,
 				EF80179D2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */,
+				EFD0A4872C70684C0068782D /* MockService.swift in Sources */,
 				EFD0A4832C7066A00068782D /* DetailsCoordinator.swift in Sources */,
 				EF80177A2C6F9B4E0052931C /* FeedListViewModel.swift in Sources */,
 				EF8017A52C6FBE910052931C /* AlbumTableViewCell.swift in Sources */,

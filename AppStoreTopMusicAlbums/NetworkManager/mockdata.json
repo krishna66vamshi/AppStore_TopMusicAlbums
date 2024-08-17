@@ -1,0 +1,1219 @@
+{
+  "feed": {
+    "title": "Top Albums",
+    "id": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/50/albums.json",
+    "author": {
+      "name": "Apple",
+      "url": "https://www.apple.com/"
+    },
+    "links": [
+      {
+        "self": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/50/albums.json"
+      }
+    ],
+    "copyright": "Copyright © 2024 Apple Inc. All rights reserved.",
+    "country": "us",
+    "icon": "https://www.apple.com/favicon.ico",
+    "updated": "Sat, 17 Aug 2024 05:18:26 +0000",
+    "results": [
+      {
+        "artistName": "Post Malone",
+        "id": "1752531522",
+        "name": "F-1 Trillion",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "966309175",
+        "artistUrl": "https://music.apple.com/us/artist/post-malone/966309175",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ad/c8/95adc8ca-e583-1800-9b56-4665f186e899/24UMGIM60824.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/f-1-trillion/1752531522"
+      },
+      {
+        "artistName": "NoCap",
+        "id": "1751364209",
+        "name": "Before I Disappear Again",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "1237732480",
+        "artistUrl": "https://music.apple.com/us/artist/nocap/1237732480",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7d/23/fb/7d23fbe9-9a10-03a6-712d-b8ea7a443577/075679643759.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/before-i-disappear-again/1751364209"
+      },
+      {
+        "artistName": "Latto",
+        "id": "1762528825",
+        "name": "Sugar Honey Iced Tea",
+        "releaseDate": "2024-08-13",
+        "kind": "albums",
+        "artistId": "419799506",
+        "artistUrl": "https://music.apple.com/us/artist/latto/419799506",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/9c/21/e19c21f6-028e-f541-9fd9-f24dffb2069e/196872387476.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/sugar-honey-iced-tea/1762528825"
+      },
+      {
+        "artistName": "Billie Eilish",
+        "id": "1739659134",
+        "name": "HIT ME HARD AND SOFT",
+        "releaseDate": "2024-05-17",
+        "kind": "albums",
+        "artistId": "1065981054",
+        "artistUrl": "https://music.apple.com/us/artist/billie-eilish/1065981054",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "20",
+            "name": "Alternative",
+            "url": "https://itunes.apple.com/us/genre/id20"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/hit-me-hard-and-soft/1739659134"
+      },
+      {
+        "artistName": "Post Malone",
+        "id": "1762471747",
+        "name": "F-1 Trillion (Long Bed)",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "966309175",
+        "artistUrl": "https://music.apple.com/us/artist/post-malone/966309175",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/2a/00/672a00c1-4ef3-afc0-fff0-66bc1359c458/24UMGIM86335.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/f-1-trillion-long-bed/1762471747"
+      },
+      {
+        "artistName": "Chappell Roan",
+        "id": "1698723205",
+        "name": "The Rise and Fall of a Midwest Princess",
+        "releaseDate": "2023-09-22",
+        "kind": "albums",
+        "artistId": "1264818718",
+        "artistUrl": "https://music.apple.com/us/artist/chappell-roan/1264818718",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fb/65/cb/fb65cb0f-4260-d740-d6f5-bb80c9c27c1b/23UMGIM84225.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/us/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-rise-and-fall-of-a-midwest-princess/1698723205"
+      },
+      {
+        "artistName": "¥$, Kanye West & Ty Dolla $ign",
+        "id": "1760905142",
+        "name": "VULTURES 2",
+        "releaseDate": "2024-08-03",
+        "kind": "albums",
+        "artistId": "1718573158",
+        "artistUrl": "https://music.apple.com/us/artist/%C2%A5%24/1718573158",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/85/03/3c850391-35f0-dd24-2aa6-38eed46752e0/354753.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/vultures-2/1760905142"
+      },
+      {
+        "artistName": "Zach Bryan",
+        "id": "1754472969",
+        "name": "The Great American Bar Scene",
+        "releaseDate": "2024-07-04",
+        "kind": "albums",
+        "artistId": "1436413980",
+        "artistUrl": "https://music.apple.com/us/artist/zach-bryan/1436413980",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/14/d4/2e14d494-34c3-d6ee-2189-9710afff7906/093624839996.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-great-american-bar-scene/1754472969"
+      },
+      {
+        "artistName": "Taylor Swift",
+        "id": "1742057774",
+        "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+        "releaseDate": "2024-04-19",
+        "kind": "albums",
+        "artistId": "159260351",
+        "artistUrl": "https://music.apple.com/us/artist/taylor-swift/159260351",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/86/59/a486593a-53c9-1c2a-5122-8f25339f7359/24UMGIM44778.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/us/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-tortured-poets-department-the-anthology/1742057774"
+      },
+      {
+        "artistName": "Eminem",
+        "id": "1755022177",
+        "name": "The Death of Slim Shady (Coup De Grâce)",
+        "releaseDate": "2024-07-12",
+        "kind": "albums",
+        "artistId": "111051",
+        "artistUrl": "https://music.apple.com/us/artist/eminem/111051",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/2c/ce/8b2cced1-ef53-ae9f-df26-5c5d8ad0009e/24UMGIM70968.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-death-of-slim-shady-coup-de-gr%C3%A2ce/1755022177"
+      },
+      {
+        "artistName": "Polo G",
+        "id": "1702084893",
+        "name": "HOOD POET",
+        "releaseDate": "2024-08-09",
+        "kind": "albums",
+        "artistId": "1159371412",
+        "artistUrl": "https://music.apple.com/us/artist/polo-g/1159371412",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/e7/fb/94e7fb82-0bd2-3a9e-22e3-cd392d3f8fb9/196871371889.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/hood-poet/1702084893"
+      },
+      {
+        "artistName": "Larry June",
+        "id": "1757508981",
+        "name": "Doing It For Me",
+        "releaseDate": "2024-08-09",
+        "kind": "albums",
+        "artistId": "675391681",
+        "artistUrl": "https://music.apple.com/us/artist/larry-june/675391681",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/f7/c6/a5f7c655-fa44-505b-07ea-f93b4cd4c375/197342641784_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/doing-it-for-me/1757508981"
+      },
+      {
+        "artistName": "Fuerza Regida",
+        "id": "1759045282",
+        "name": "PERO NO TE ENAMORES",
+        "releaseDate": "2024-07-25",
+        "kind": "albums",
+        "artistId": "1275690475",
+        "artistUrl": "https://music.apple.com/us/artist/fuerza-regida/1275690475",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/95/0f/24950f19-f5dd-696b-8295-df4f780a0d9a/196872326017.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "17",
+            "name": "Dance",
+            "url": "https://itunes.apple.com/us/genre/id17"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "12",
+            "name": "Latin",
+            "url": "https://itunes.apple.com/us/genre/id12"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/pero-no-te-enamores/1759045282"
+      },
+      {
+        "artistName": "Peso Pluma",
+        "id": "1748015447",
+        "name": "ÉXODO",
+        "releaseDate": "2024-06-20",
+        "kind": "albums",
+        "artistId": "1500139475",
+        "artistUrl": "https://music.apple.com/us/artist/peso-pluma/1500139475",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/e9/65/3de9651e-fe11-0525-7eee-762861af1152/198391808319.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "12",
+            "name": "Latin",
+            "url": "https://itunes.apple.com/us/genre/id12"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/%C3%A9xodo/1748015447"
+      },
+      {
+        "artistName": "Falling In Reverse",
+        "id": "1741617063",
+        "name": "Popular Monster",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "439592053",
+        "artistUrl": "https://music.apple.com/us/artist/falling-in-reverse/439592053",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/e7/62/d7e762f8-7661-b28a-462a-007c767f412b/0045778761265.png/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "21",
+            "name": "Rock",
+            "url": "https://itunes.apple.com/us/genre/id21"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/popular-monster/1741617063"
+      },
+      {
+        "artistName": "Gunna",
+        "id": "1744458034",
+        "name": "One of Wun",
+        "releaseDate": "2024-05-10",
+        "kind": "albums",
+        "artistId": "1236267297",
+        "artistUrl": "https://music.apple.com/us/artist/gunna/1236267297",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/4e/45/424e4521-37b7-6f49-293a-98a1285ed7c5/075679660336.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/one-of-wun/1744458034"
+      },
+      {
+        "artistName": "Asake",
+        "id": "1760853689",
+        "name": "Lungu Boy",
+        "releaseDate": "2024-08-09",
+        "kind": "albums",
+        "artistId": "1436064480",
+        "artistUrl": "https://music.apple.com/us/artist/asake/1436064480",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/34/59/383459da-ba6a-4bee-67df-7de269764383/197342707992_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/lungu-boy/1760853689"
+      },
+      {
+        "artistName": "Charli xcx",
+        "id": "1739079974",
+        "name": "BRAT",
+        "releaseDate": "2024-06-07",
+        "kind": "albums",
+        "artistId": "432942256",
+        "artistUrl": "https://music.apple.com/us/artist/charli-xcx/432942256",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "7",
+            "name": "Electronic",
+            "url": "https://itunes.apple.com/us/genre/id7"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/brat/1739079974"
+      },
+      {
+        "artistName": "The Kid LAROI",
+        "id": "1715047367",
+        "name": "THE FIRST TIME",
+        "releaseDate": "2023-11-10",
+        "kind": "albums",
+        "artistId": "1435848034",
+        "artistUrl": "https://music.apple.com/us/artist/the-kid-laroi/1435848034",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/26/10/46261095-a39c-9231-7d1c-9718aa092b3a/196871605403.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/us/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-first-time/1715047367"
+      },
+      {
+        "artistName": "Descendants – Cast",
+        "id": "1741597619",
+        "name": "Descendants: The Rise of Red (Original Soundtrack)",
+        "releaseDate": "2024-07-12",
+        "kind": "albums",
+        "artistId": "1741597788",
+        "artistUrl": "https://music.apple.com/us/artist/descendants-cast/1741597788",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/c4/17/1ec41773-977a-ab39-1de6-acdc0e5add4e/24UMGIM42174.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "16",
+            "name": "Soundtrack",
+            "url": "https://itunes.apple.com/us/genre/id16"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/descendants-the-rise-of-red-original-soundtrack/1741597619"
+      },
+      {
+        "artistName": "YG",
+        "id": "1762091498",
+        "name": "JUST RE'D UP 3",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "189792075",
+        "artistUrl": "https://music.apple.com/us/artist/yg/189792075",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/85/a2/37/85a237b5-1104-df33-0037-9d0a280eee30/4099964121889.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/just-red-up-3/1762091498"
+      },
+      {
+        "artistName": "Megan Moroney",
+        "id": "1743233224",
+        "name": "Am I Okay?",
+        "releaseDate": "2024-07-12",
+        "kind": "albums",
+        "artistId": "1552469569",
+        "artistUrl": "https://music.apple.com/us/artist/megan-moroney/1552469569",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/2a/43/de2a438b-bb7c-16db-64db-954057aca5aa/196872040302.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/am-i-okay/1743233224"
+      },
+      {
+        "artistName": "Future & Metro Boomin",
+        "id": "1737149923",
+        "name": "WE DON'T TRUST YOU",
+        "releaseDate": "2024-03-22",
+        "kind": "albums",
+        "artistId": "128050210",
+        "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/we-dont-trust-you/1737149923"
+      },
+      {
+        "artistName": "Various Artists",
+        "id": "1759237718",
+        "name": "Twisters: The Album (Video Version)",
+        "releaseDate": "2024-07-18",
+        "kind": "albums",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/d5/b2/79d5b20e-a0a3-0a2f-0877-b3d846c882f1/075679636249.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/twisters-the-album-video-version/1759237718"
+      },
+      {
+        "artistName": "Ivan Cornejo",
+        "id": "1754234421",
+        "name": "MIRADA (Apple Music Edition)",
+        "releaseDate": "2024-07-19",
+        "kind": "albums",
+        "artistId": "1531646916",
+        "artistUrl": "https://music.apple.com/us/artist/ivan-cornejo/1531646916",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/2d/2f/932d2fab-0679-a185-e8aa-20eba7bb76ff/198704042225_Cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "12",
+            "name": "Latin",
+            "url": "https://itunes.apple.com/us/genre/id12"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/mirada-apple-music-edition/1754234421"
+      },
+      {
+        "artistName": "Gucci Mane",
+        "id": "1762900869",
+        "name": "Greatest Of All Trappers (Gangsta Grillz Edition)",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "62374520",
+        "artistUrl": "https://music.apple.com/us/artist/gucci-mane/62374520",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/fe/28/44fe2803-2341-b464-daae-d351943b5b0f/075679638281.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/greatest-of-all-trappers-gangsta-grillz-edition/1762900869"
+      },
+      {
+        "artistName": "Tinashe",
+        "id": "1760674272",
+        "name": "Quantum Baby",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "464835513",
+        "artistUrl": "https://music.apple.com/us/artist/tinashe/464835513",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/f2/df/f4f2df5e-52b0-1ad0-b1c0-cb285fe97d06/43428.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "15",
+            "name": "R&B/Soul",
+            "url": "https://itunes.apple.com/us/genre/id15"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/quantum-baby/1760674272"
+      },
+      {
+        "artistName": "PARTYNEXTDOOR",
+        "id": "1738702582",
+        "name": "PARTYNEXTDOOR 4 (P4)",
+        "releaseDate": "2024-04-26",
+        "kind": "albums",
+        "artistId": "666648192",
+        "artistUrl": "https://music.apple.com/us/artist/partynextdoor/666648192",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/de/c5/0ddec5e3-42f6-c550-6227-55dcd7d6b89a/39029.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "15",
+            "name": "R&B/Soul",
+            "url": "https://itunes.apple.com/us/genre/id15"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/partynextdoor-4-p4/1738702582"
+      },
+      {
+        "artistName": "Future & Metro Boomin",
+        "id": "1740864541",
+        "name": "WE STILL DON'T TRUST YOU",
+        "releaseDate": "2024-04-12",
+        "kind": "albums",
+        "artistId": "128050210",
+        "artistUrl": "https://music.apple.com/us/artist/future/128050210",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/55/f3/4855f346-fd74-fe8c-d75d-890b52213884/196871990844.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/we-still-dont-trust-you/1740864541"
+      },
+      {
+        "artistName": "Don Toliver",
+        "id": "1753900450",
+        "name": "HARDSTONE PSYCHO",
+        "releaseDate": "2024-06-14",
+        "kind": "albums",
+        "artistId": "1237012992",
+        "artistUrl": "https://music.apple.com/us/artist/don-toliver/1237012992",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/3c/5d/223c5d96-501e-040e-a34d-0608e6e5c4ff/075679638434.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/hardstone-psycho/1753900450"
+      },
+      {
+        "artistName": "Gracie Abrams",
+        "id": "1743054543",
+        "name": "The Secret of Us",
+        "releaseDate": "2024-06-21",
+        "kind": "albums",
+        "artistId": "1450554836",
+        "artistUrl": "https://music.apple.com/us/artist/gracie-abrams/1450554836",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/9a/a7/529aa76f-5d60-cd81-9eb0-0eb521de861d/24UMGIM43968.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/us/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-secret-of-us/1743054543"
+      },
+      {
+        "artistName": "Baby Lullaby Academy",
+        "id": "1065946325",
+        "name": "Baby Lullaby: Relaxing Piano Lullabies and Natural Sleep Aid for Baby Sleep Music",
+        "releaseDate": "2015-11-24",
+        "kind": "albums",
+        "artistId": "940778269",
+        "artistUrl": "https://music.apple.com/us/artist/baby-lullaby-academy/940778269",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ab/cb/17/abcb1725-a2e0-c4bc-8666-136f5782635a/859714545211_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "4",
+            "name": "Children's Music",
+            "url": "https://itunes.apple.com/us/genre/id4"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/baby-lullaby-relaxing-piano-lullabies-and-natural/1065946325"
+      },
+      {
+        "artistName": "Quando Rondo",
+        "id": "1759448780",
+        "name": "Here for a Reason: In The Darkest Time - EP",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "1341519176",
+        "artistUrl": "https://music.apple.com/us/artist/quando-rondo/1341519176",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/9a/ca/9a9acad8-0948-40ff-3d4e-7188a968e25b/075679639486.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/here-for-a-reason-in-the-darkest-time-ep/1759448780"
+      },
+      {
+        "artistName": "Various Artists",
+        "id": "1716472295",
+        "name": "TROLLS Band Together (Original Motion Picture Soundtrack) [Deluxe Edition]",
+        "releaseDate": "2023-11-17",
+        "kind": "albums",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4b/1f/bc/4b1fbc3c-e30c-f177-9607-6191071910e3/196871604796.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "16",
+            "name": "Soundtrack",
+            "url": "https://itunes.apple.com/us/genre/id16"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "4",
+            "name": "Children's Music",
+            "url": "https://itunes.apple.com/us/genre/id4"
+          },
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/us/genre/id14"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/trolls-band-together-original-motion-picture-soundtrack/1716472295"
+      },
+      {
+        "artistName": "Logic",
+        "id": "1750765140",
+        "name": "Ultra 85",
+        "releaseDate": "2024-08-09",
+        "kind": "albums",
+        "artistId": "30865945",
+        "artistUrl": "https://music.apple.com/us/artist/logic/30865945",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/15/26/b315265f-37c6-6dab-5f25-d4f25b9ad34b/4099964032628.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/ultra-85/1750765140"
+      },
+      {
+        "artistName": "Taylor Swift",
+        "id": "1528112358",
+        "name": "folklore (deluxe version)",
+        "releaseDate": "2020-07-24",
+        "kind": "albums",
+        "artistId": "159260351",
+        "artistUrl": "https://music.apple.com/us/artist/taylor-swift/159260351",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/80/dc/b580dca0-349d-036b-e09b-bd849f6affd8/20UMGIM64216.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "20",
+            "name": "Alternative",
+            "url": "https://itunes.apple.com/us/genre/id20"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/folklore-deluxe-version/1528112358"
+      },
+      {
+        "artistName": "Megan Thee Stallion",
+        "id": "1752024169",
+        "name": "MEGAN",
+        "releaseDate": "2024-06-28",
+        "kind": "albums",
+        "artistId": "1258989914",
+        "artistUrl": "https://music.apple.com/us/artist/megan-thee-stallion/1258989914",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/1d/8e/931d8ec8-5191-f0df-201b-100731c58cac/075679642554.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/megan/1752024169"
+      },
+      {
+        "artistName": "Chris Brown",
+        "id": "1740205873",
+        "name": "11:11 (Deluxe)",
+        "releaseDate": "2023-11-10",
+        "kind": "albums",
+        "artistId": "95705522",
+        "artistUrl": "https://music.apple.com/us/artist/chris-brown/95705522",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/5c/c1/2d5cc1a6-86ce-ee16-5985-807f2fffa3cb/196871957267.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "15",
+            "name": "R&B/Soul",
+            "url": "https://itunes.apple.com/us/genre/id15"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/11-11-deluxe/1740205873"
+      },
+      {
+        "artistName": "Ot7 Quanny",
+        "id": "1762795608",
+        "name": "The Leaks",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "1533548946",
+        "artistUrl": "https://music.apple.com/us/artist/ot7-quanny/1533548946",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/09/cd/97/09cd97ab-fbfd-82b0-9853-866cd64d9c38/810129991925.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-leaks/1762795608"
+      },
+      {
+        "artistName": "$uicideboy$",
+        "id": "1737042669",
+        "name": "New World Depression",
+        "releaseDate": "2024-06-14",
+        "kind": "albums",
+        "artistId": "1081606072",
+        "artistUrl": "https://music.apple.com/us/artist/%24uicideboy%24/1081606072",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/99/e9/3a99e97f-c097-71a2-52cc-f423d538940e/198391606878.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/new-world-depression/1737042669"
+      },
+      {
+        "artistName": "Benny the Butcher & Black Soprano Family",
+        "id": "1760864369",
+        "name": "Summertime Butch",
+        "releaseDate": "2024-08-09",
+        "kind": "albums",
+        "artistId": "1281676587",
+        "artistUrl": "https://music.apple.com/us/artist/benny-the-butcher/1281676587",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c4/fd/94/c4fd94dd-7fd5-cc26-b580-220b1df3ed58/198588862254.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/summertime-butch/1760864369"
+      },
+      {
+        "artistName": "Morgan Wallen",
+        "id": "1667990565",
+        "name": "One Thing At A Time",
+        "releaseDate": "2023-03-03",
+        "kind": "albums",
+        "artistId": "829142092",
+        "artistUrl": "https://music.apple.com/us/artist/morgan-wallen/829142092",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/86/cc/00/86cc001c-2efc-9ebb-8290-17f4f3ba3e4a/23UMGIM08087.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/one-thing-at-a-time/1667990565"
+      },
+      {
+        "artistName": "Rod Wave",
+        "id": "1705141548",
+        "name": "Nostalgia",
+        "releaseDate": "2023-09-15",
+        "kind": "albums",
+        "artistId": "1140623439",
+        "artistUrl": "https://music.apple.com/us/artist/rod-wave/1140623439",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/a7/ea/5ba7eac4-dbbd-8ebf-7ec4-92ee97a442c3/196871436434.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/nostalgia/1705141548"
+      },
+      {
+        "artistName": "Luke Combs",
+        "id": "1750297439",
+        "name": "Fathers & Sons",
+        "releaseDate": "2024-06-14",
+        "kind": "albums",
+        "artistId": "815635315",
+        "artistUrl": "https://music.apple.com/us/artist/luke-combs/815635315",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/30/cd/9530cd97-d001-99d9-ac2e-32c2633f6ec3/196872117424.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/fathers-sons/1750297439"
+      },
+      {
+        "artistName": "Zach Bryan",
+        "id": "1703216858",
+        "name": "Zach Bryan",
+        "releaseDate": "2023-08-25",
+        "kind": "albums",
+        "artistId": "1436413980",
+        "artistUrl": "https://music.apple.com/us/artist/zach-bryan/1436413980",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ce/36/7f/ce367f3d-2a4f-46ee-1434-e3fbb52f1fc8/093624849797.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/zach-bryan/1703216858"
+      },
+      {
+        "artistName": "SleepTherapy",
+        "id": "1417709876",
+        "name": "Brown Noise: Loops for Relaxation, Deep Sleep, Meditation, And Babies",
+        "releaseDate": "2018-07-17",
+        "kind": "albums",
+        "artistId": "993038489",
+        "artistUrl": "https://music.apple.com/us/artist/sleeptherapy/993038489",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/21/1e/77/211e77f4-beed-c073-526c-c182bbed597f/859727751685_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/brown-noise-loops-for-relaxation-deep-sleep-meditation/1417709876"
+      },
+      {
+        "artistName": "Shaboozey",
+        "id": "1737085577",
+        "name": "Where I've Been, Isn't Where I'm Going",
+        "releaseDate": "2024-05-31",
+        "kind": "albums",
+        "artistId": "914125510",
+        "artistUrl": "https://music.apple.com/us/artist/shaboozey/914125510",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/b5/bc/97b5bca2-6238-2421-4f0d-1f7a39d5d9d4/197342550925_cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/where-ive-been-isnt-where-im-going/1737085577"
+      },
+      {
+        "artistName": "Chlöe",
+        "id": "1761451392",
+        "name": "Trouble In Paradise",
+        "releaseDate": "2024-08-09",
+        "kind": "albums",
+        "artistId": "1571206848",
+        "artistUrl": "https://music.apple.com/us/artist/chl%C3%B6e/1571206848",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/c4/9f/f4c49f50-ebbd-b906-369c-ee21f0a42ba7/196872117615.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "15",
+            "name": "R&B/Soul",
+            "url": "https://itunes.apple.com/us/genre/id15"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/us/genre/id14"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/trouble-in-paradise/1761451392"
+      },
+      {
+        "artistName": "Moneybagg Yo",
+        "id": "1750968444",
+        "name": "SPEAK NOW",
+        "releaseDate": "2024-06-14",
+        "kind": "albums",
+        "artistId": "991187319",
+        "artistUrl": "https://music.apple.com/us/artist/moneybagg-yo/991187319",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/14/53/13145323-bb09-4ea2-528a-24010d74af27/24UMGIM51280.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/speak-now/1750968444"
+      },
+      {
+        "artistName": "Drake",
+        "id": "1716979097",
+        "name": "For All The Dogs Scary Hours Edition",
+        "releaseDate": "2023-10-06",
+        "kind": "albums",
+        "artistId": "271256",
+        "artistUrl": "https://music.apple.com/us/artist/drake/271256",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/1a/a3/971aa332-2c7d-947c-33ed-4635d41115a4/23UM1IM56239.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/for-all-the-dogs-scary-hours-edition/1716979097"
+      }
+    ]
+  }
+}
