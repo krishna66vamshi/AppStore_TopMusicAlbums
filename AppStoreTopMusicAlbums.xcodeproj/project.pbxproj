@@ -48,6 +48,7 @@
 		EF8A1BB22C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1BB12C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift */; };
 		EF8A1BBC2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1BBB2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift */; };
 		EF8A1BBE2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1BBD2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITestsLaunchTests.swift */; };
+		EFD0A47A2C7057B80068782D /* UITableViewCell+ReuseID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4792C7057B80068782D /* UITableViewCell+ReuseID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		EF8A1BB72C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreTopMusicAlbumsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8A1BBB2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTopMusicAlbumsUITests.swift; sourceTree = "<group>"; };
 		EF8A1BBD2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTopMusicAlbumsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFD0A4792C7057B80068782D /* UITableViewCell+ReuseID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseID.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		EF8017832C6F9B970052931C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				EFD0A4792C7057B80068782D /* UITableViewCell+ReuseID.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				EF80179F2C6FBE8C0052931C /* DetailedViewController.swift in Sources */,
 				EF8017852C6F9BE90052931C /* WebServicesProtocol.swift in Sources */,
 				EF80177C2C6F9B570052931C /* FeedViewModel.swift in Sources */,
+				EFD0A47A2C7057B80068782D /* UITableViewCell+ReuseID.swift in Sources */,
 				EF8A1B9F2C6F98010028E5D2 /* ViewController.swift in Sources */,
 				EF8A1B9B2C6F98010028E5D2 /* AppDelegate.swift in Sources */,
 				EF8017742C6F9AD60052931C /* NetworkManager.swift in Sources */,

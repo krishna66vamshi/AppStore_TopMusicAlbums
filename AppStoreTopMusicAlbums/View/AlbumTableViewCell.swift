@@ -12,6 +12,7 @@ class AlbumTableViewCell: UITableViewCell {
     @IBOutlet weak var artistImgView: UIImageView!
     @IBOutlet weak var artistName: UILabel!
     @IBOutlet weak var albumReleaseDate: UILabel!
+
     
     var feed:FeedViewModel?
     var callBack:()->() = {}
@@ -19,12 +20,12 @@ class AlbumTableViewCell: UITableViewCell {
     func configureCell(feed:FeedViewModel){
         self.feed = feed
         artistName.text = feed.artistName
-        albumReleaseDate.text = "Release Date:-" + feed.releaseDate
+        albumReleaseDate.text = "Release Date : " + feed.releaseDate
     }
     
     func loadImage(vm:FeedListViewModel){
         Task{
-            self.artistImgView.layer.cornerRadius = 10
+            self.artistImgView.layer.cornerRadius = 15
             if let image = await vm.downloadImageFromCache(imageUrl: feed?.artworkUrl100 ?? ""){
                 self.artistImgView.image = image
             }else{

@@ -8,13 +8,14 @@
 import Foundation
 
 class FeedViewModel{
-    var artistName,releaseDate:String
-    var artworkUrl100:String
+    var artistName,releaseDate,name:String
+    var artworkUrl100,artistURL:String
 
     init(result: Result) {
         self.artistName = result.artistName ?? ""
         self.artworkUrl100 = result.artworkUrl100 ?? ""
         self.releaseDate = result.releaseDate ?? ""
-
+        self.name = result.name ?? ""
+        self.artistURL = result.artistURL ?? ""
     }
 }

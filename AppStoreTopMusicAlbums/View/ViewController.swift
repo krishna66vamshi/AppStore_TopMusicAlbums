@@ -17,9 +17,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupViewModelUI()
+    }
+    
+    func setupViewModelUI(){
         vm = FeedListViewModel(webServices: NetworkManager())
-        
         Task{
             await vm?.callAPI()
         }
@@ -35,6 +37,7 @@ class ViewController: UIViewController {
             case .error(let err):
                 print(err)
                 self.activityIndicator.stopAnimating()
+                self.showAlert(message: err)
             case .dataLoaded:
                 print("data Loaded")
                 let data = self.vm?.albumsResults
@@ -43,6 +46,13 @@ class ViewController: UIViewController {
                 self.tableView.reloadData()
             }
         }
+    }
+    
+    func showAlert(message:String){
+        let alertVC = UIAlertController(title: "Alert", message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "Ok", style: .default)
+        alertVC.addAction(action)
+        present(alertVC, animated: true)
     }
 }
 
@@ -53,7 +63,7 @@ extension ViewController:UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "AlbumTableViewCell", for: indexPath) as? AlbumTableViewCell else { return .init() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: AlbumTableViewCell.reuseID, for: indexPath) as? AlbumTableViewCell else { return .init() }
         
         if let feedViewModel = vm?.getFeedViewModel(indexPath: indexPath){
             cell.configureCell(feed: feedViewModel)
@@ -62,12 +72,20 @@ extension ViewController:UITableViewDataSource{
             }
         }
         
-        cell.callBack = {
-            guard let detailVC = self.storyboard?.instantiateViewController(withIdentifier: "DetailedViewController") as? DetailedViewController else {return}
-            self.navigationController?.pushViewController(detailVC, animated: true)
+        cell.callBack = { [weak self] in
+            guard let self = self else { return  }
+            self.moveToDetailsVC(indexPath: indexPath)
         }
         
         return cell
+    }
+    
+    func moveToDetailsVC(indexPath:IndexPath){
+        guard let detailVC = self.storyboard?.instantiateViewController(withIdentifier: DetailedViewController.reuseID) as? DetailedViewController else {return}
+        if let feedViewModel = self.vm?.getFeedViewModel(indexPath: indexPath){
+            detailVC.feedVM = feedViewModel
+        }
+        self.navigationController?.pushViewController(detailVC, animated: true)
     }
 }
 
@@ -77,4 +95,7 @@ extension ViewController:UITableViewDelegate{
         return UITableView.automaticDimension
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        moveToDetailsVC(indexPath: indexPath)
+    }
 }
