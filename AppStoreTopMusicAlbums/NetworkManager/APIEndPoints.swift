@@ -20,7 +20,7 @@ enum Endpoint {
     var path: String {
         switch self {
         case .getMostPlayedMusic:
-            return "/api/v2/us/music/most-played/10/albums.json"
+            return "/api/v2/us/music/most-played/50/albums.json"
         }
     }
 

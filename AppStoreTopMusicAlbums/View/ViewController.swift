@@ -10,10 +10,11 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     var vm:FeedListViewModel?
+    weak var coordinator: MainCoordinator?
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,11 +82,9 @@ extension ViewController:UITableViewDataSource{
     }
     
     func moveToDetailsVC(indexPath:IndexPath){
-        guard let detailVC = self.storyboard?.instantiateViewController(withIdentifier: DetailedViewController.reuseID) as? DetailedViewController else {return}
         if let feedViewModel = self.vm?.getFeedViewModel(indexPath: indexPath){
-            detailVC.feedVM = feedViewModel
+            coordinator?.goToDetail(feedViewModel: feedViewModel)
         }
-        self.navigationController?.pushViewController(detailVC, animated: true)
     }
 }
 

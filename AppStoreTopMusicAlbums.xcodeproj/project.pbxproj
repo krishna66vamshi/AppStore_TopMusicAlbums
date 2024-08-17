@@ -48,7 +48,13 @@
 		EF8A1BB22C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1BB12C6F98040028E5D2 /* AppStoreTopMusicAlbumsTests.swift */; };
 		EF8A1BBC2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1BBB2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift */; };
 		EF8A1BBE2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A1BBD2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITestsLaunchTests.swift */; };
-		EFD0A47A2C7057B80068782D /* UITableViewCell+ReuseID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4792C7057B80068782D /* UITableViewCell+ReuseID.swift */; };
+		EFD0A47A2C7057B80068782D /* ReuseID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4792C7057B80068782D /* ReuseID.swift */; };
+		EFD0A47D2C7062C20068782D /* MainCoordintaor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A47C2C7062C20068782D /* MainCoordintaor.swift */; };
+		EFD0A47E2C7062C20068782D /* MainCoordintaor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A47C2C7062C20068782D /* MainCoordintaor.swift */; };
+		EFD0A47F2C7062C20068782D /* MainCoordintaor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A47C2C7062C20068782D /* MainCoordintaor.swift */; };
+		EFD0A4812C7066A00068782D /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */; };
+		EFD0A4822C7066A00068782D /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */; };
+		EFD0A4832C7066A00068782D /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,7 +98,9 @@
 		EF8A1BB72C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreTopMusicAlbumsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8A1BBB2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTopMusicAlbumsUITests.swift; sourceTree = "<group>"; };
 		EF8A1BBD2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTopMusicAlbumsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EFD0A4792C7057B80068782D /* UITableViewCell+ReuseID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseID.swift"; sourceTree = "<group>"; };
+		EFD0A4792C7057B80068782D /* ReuseID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseID.swift; sourceTree = "<group>"; };
+		EFD0A47C2C7062C20068782D /* MainCoordintaor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordintaor.swift; sourceTree = "<group>"; };
+		EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +170,7 @@
 		EF8017832C6F9B970052931C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				EFD0A4792C7057B80068782D /* UITableViewCell+ReuseID.swift */,
+				EFD0A4792C7057B80068782D /* ReuseID.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 		EF8A1B992C6F98010028E5D2 /* AppStoreTopMusicAlbums */ = {
 			isa = PBXGroup;
 			children = (
+				EFD0A47B2C7062A70068782D /* Coordinatorr */,
 				EF8A1B9A2C6F98010028E5D2 /* AppDelegate.swift */,
 				EF8A1B9C2C6F98010028E5D2 /* SceneDelegate.swift */,
 				EF8017832C6F9B970052931C /* Helpers */,
@@ -220,6 +229,15 @@
 				EF8A1BBD2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITestsLaunchTests.swift */,
 			);
 			path = AppStoreTopMusicAlbumsUITests;
+			sourceTree = "<group>";
+		};
+		EFD0A47B2C7062A70068782D /* Coordinatorr */ = {
+			isa = PBXGroup;
+			children = (
+				EFD0A47C2C7062C20068782D /* MainCoordintaor.swift */,
+				EFD0A4802C7066A00068782D /* DetailsCoordinator.swift */,
+			);
+			name = Coordinatorr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,13 +378,15 @@
 				EF80179F2C6FBE8C0052931C /* DetailedViewController.swift in Sources */,
 				EF8017852C6F9BE90052931C /* WebServicesProtocol.swift in Sources */,
 				EF80177C2C6F9B570052931C /* FeedViewModel.swift in Sources */,
-				EFD0A47A2C7057B80068782D /* UITableViewCell+ReuseID.swift in Sources */,
+				EFD0A47A2C7057B80068782D /* ReuseID.swift in Sources */,
 				EF8A1B9F2C6F98010028E5D2 /* ViewController.swift in Sources */,
 				EF8A1B9B2C6F98010028E5D2 /* AppDelegate.swift in Sources */,
 				EF8017742C6F9AD60052931C /* NetworkManager.swift in Sources */,
 				EF8017892C6F9CBE0052931C /* APIEndPoints.swift in Sources */,
+				EFD0A47D2C7062C20068782D /* MainCoordintaor.swift in Sources */,
 				EF8A1B9D2C6F98010028E5D2 /* SceneDelegate.swift in Sources */,
 				EF8017A32C6FBE910052931C /* AlbumTableViewCell.swift in Sources */,
+				EFD0A4812C7066A00068782D /* DetailsCoordinator.swift in Sources */,
 				EF8017782C6F9B4E0052931C /* FeedListViewModel.swift in Sources */,
 				EF8017702C6F9AC40052931C /* FeedModel.swift in Sources */,
 			);
@@ -379,7 +399,9 @@
 				EF8017862C6F9BE90052931C /* WebServicesProtocol.swift in Sources */,
 				EF80179C2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */,
 				EF8017A02C6FBE8C0052931C /* DetailedViewController.swift in Sources */,
+				EFD0A4822C7066A00068782D /* DetailsCoordinator.swift in Sources */,
 				EF8017A42C6FBE910052931C /* AlbumTableViewCell.swift in Sources */,
+				EFD0A47E2C7062C20068782D /* MainCoordintaor.swift in Sources */,
 				EF80177D2C6F9B570052931C /* FeedViewModel.swift in Sources */,
 				EF8017982C6FBE120052931C /* ImageCache.swift in Sources */,
 				EF8017752C6F9AD60052931C /* NetworkManager.swift in Sources */,
@@ -403,7 +425,9 @@
 				EF8017722C6F9AC90052931C /* FeedModel.swift in Sources */,
 				EF8017872C6F9BE90052931C /* WebServicesProtocol.swift in Sources */,
 				EF8A1BBC2C6F98040028E5D2 /* AppStoreTopMusicAlbumsUITests.swift in Sources */,
+				EFD0A47F2C7062C20068782D /* MainCoordintaor.swift in Sources */,
 				EF80179D2C6FBE830052931C /* DetailedAlbumViewModel.swift in Sources */,
+				EFD0A4832C7066A00068782D /* DetailsCoordinator.swift in Sources */,
 				EF80177A2C6F9B4E0052931C /* FeedListViewModel.swift in Sources */,
 				EF8017A52C6FBE910052931C /* AlbumTableViewCell.swift in Sources */,
 			);

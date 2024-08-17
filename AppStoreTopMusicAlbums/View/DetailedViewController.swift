@@ -19,7 +19,8 @@ class DetailedViewController: UIViewController {
     
     var feedVM:FeedViewModel?
     var artistsDetailsVM:ArtistDetailsViewModel!
-    
+    weak var coordinator: DetailCoordinator?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViewModel()
@@ -54,12 +55,7 @@ class DetailedViewController: UIViewController {
     }
     
     @IBAction func viewArtistsDetails(_ sender: Any) {
-        if let feedVM = feedVM{
-            if let url = URL(string: feedVM.artistURL) {
-                let safariVC = SFSafariViewController(url: url)
-                present(safariVC, animated: true, completion: nil)
-            }
-        }
+        coordinator?.openSafari()
     }
     
     
